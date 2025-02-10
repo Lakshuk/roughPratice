@@ -1,0 +1,22 @@
+spring.application.name=employee
+
+spring.h2.console.enabled=true
+spring.datasource.platform=h2
+spring.datasource.url=jdbc:h2:mem:laksh
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+
+#Gmail configuration
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=lakshmik2409@gmail.com
+spring.mail.password=your-app-password
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
